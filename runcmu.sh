@@ -1,0 +1,15 @@
+python main_cmu.py \
+    --data_dir "./dataset/cmu/" \
+    --kernel_size 10 \
+    --dct_n 35 \
+    --input_n 10 \
+    --output_n 25 \
+    --skip_rate 1 \
+    --batch_size 16 \
+    --test_batch_size 32 \
+    --in_features 75 \
+    --cuda_idx cuda:0 \
+    --d_model 16 \
+    --lr_now 0.005 \
+    --epoch 50 \
+    --test_sample_num -1
